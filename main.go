@@ -22,7 +22,7 @@ func help() {
   \_\ | /_/          __/ |          
     |_|             |___/      v.0.1
 `
-	banner += "\nUsage:\n\t-t IP\tTarget IP\nOptional:\n\t-p PORT\tTarget Port\n\nExamples:\n\n- Discover all open port from target [default]\n  $ psight -t 127.0.0.1\n- Scan single port from target\n  $ psight -t 127.0.0.1 -p 22\n- Scan multiple port from target\n  $ psight -t 127.0.0.1 -p 21,22\n- Scan range of port from target\n  $ psight -t 127.0.0.1 -p 22-25\n"
+	banner += "\nUsage:\n\t-t IP\tTarget IP\nOptional:\n\t-p PORT\tTarget Port\n\nExamples:\n\n- Discover all open port from target [default]\n  $ psight -t 127.0.0.1\n- Check single port from target\n  $ psight -t 127.0.0.1 -p 22\n- Check multiple port from target\n  $ psight -t 127.0.0.1 -p 21,22\n- Check range of port from target\n  $ psight -t 127.0.0.1 -p 22-25\n"
 	fmt.Println(banner)
 }
 
