@@ -34,10 +34,10 @@ Examples:
 
 - Discover all open port from target [default]
   $ psight -t 127.0.0.1
-- Scan single port from target
+- Check single port from target
   $ psight -t 127.0.0.1 -p 22
-- Scan multiple port from target
+- Check multiple port from target
   $ psight -t 127.0.0.1 -p 21,22
-- Scan range of port from target
+- Check range of port from target
   $ psight -t 127.0.0.1 -p 22-25
 ```
