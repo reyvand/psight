@@ -5,7 +5,9 @@ Simple port checker based on Go.
 Installation:
 
 ```sh
-$ git clone https://github.com/reyvand/psight.git or go get github.com/reyvand/psight.git
+$ git clone https://github.com/reyvand/psight.git 
+or  you can do
+$ go get github.com/reyvand/psight.git
 $ cd psight
 $ GOPATH=$(pwd) go build
 $ ls
