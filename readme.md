@@ -1,5 +1,5 @@
 # Psight
-Simple port checker based on Go.
+Simple port checker based on Go ❤️.
 
 
 Installation:
