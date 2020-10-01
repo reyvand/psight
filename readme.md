@@ -12,10 +12,6 @@ $ ls
 main.go   psight    readme.md src
 ```
 
-Using Docker  : 
-docker run --restart on-failure --name psight reyvand/psight
-
-
 Usage:
 ```sh
 $ ./psight
