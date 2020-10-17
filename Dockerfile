@@ -1,4 +1,4 @@
-FROM golang:1.14-alpine AS builder
+FROM golang:1.15.3-alpine3.12 AS builder
 
 # Install OS level dependencies
 RUN apk add --update alpine-sdk git && \
@@ -14,4 +14,4 @@ WORKDIR /go/src/github.com/reyvand/psight/
 COPY --from=builder /go/src/github.com/reyvand/psight /go/src/github.com/reyvand/psight
 COPY --from=builder /go/src/github.com/reyvand/psight /bin/psight
 
-ENTRYPOINT ["/bin/psight]
+ENTRYPOINT ["/bin/psight"]
